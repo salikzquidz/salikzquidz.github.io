@@ -1,0 +1,144 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper{
+  width: 1170px;
+  margin: auto;
+  position: relative;
+}
+header{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(imageform/cloud.jpg);
+  height: 1080px;
+  -webkit-background-size:cover;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.nav-area{
+  float: right;
+  list-style: none;
+  margin-top: 30px;
+  margin-right: -100px;
+}
+.nav-area li{
+  display: inline-block;
+}
+.nav-area li a{
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 20px;
+  font-family: cursive;
+  font-size: 14px;
+}
+.nav-area li a:hover{
+  background: #fff;
+  color: #333;
+}
+.logo{
+  float: left;
+  width: 50%;
+}
+.logo img{
+  width: 200px;
+  height: 130px;
+  float: left;
+  opacity: 0.5;
+  margin-left: -90px;
+  border-radius: 30px;
+}
+.logo img:hover{
+  background-color: #3e8e41;
+  opacity: 0.9;
+}
+section{
+  clear:both;
+}
+.register h1{
+  padding: 35px;
+  margin: 0% 0% 3%;
+  text-align: center;
+  font-family: 'Lora', serif;
+  color: white;
+  font-size: 40px;
+  opacity: 1;
+  text-transform: uppercase;
+}
+.register{
+  border: 1px solid black;
+  padding: 10px;
+  height: 650px;
+  width: 100px;
+  clear: both;
+  margin: 25% 10%;
+  width: 1000px;
+  background-color : #544C4C;
+  border-radius: 50px;
+}
+.register img{
+  width:100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: -50px;
+  margin-left: 450px;
+}
+input[type=text], input[type=password] ,input[type=email] {
+  width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display:  block;
+    border: none;
+    background: #f1f1f1;
+}
+input[type=text]:focus, input[type=password]:focus ,input[type=email]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 1px solid black;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+.cancelbtn{
+  float: left;
+  width: 50%;
+  background-color: #f44336;
+}
+.signupbtn{
+  float: left;
+  width: 50%;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+}
+label{
+font-family: 'Inconsolata', monospace;
+color: white;
+font-weight: bold;
+font-size: 25px;
+}
+label[for=check]{
+  font-size: 22px;
+  letter-spacing: 3px;
+  padding: 10px;
+}
+input[type=checkbox]{
+  margin-right: 0px;
+  margin-bottom: 15px;
+}
+input.besar{
+  width:50px;
+}

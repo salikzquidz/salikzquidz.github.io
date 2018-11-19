@@ -1,0 +1,120 @@
+body {
+  margin: 0px;
+  font-family: Arial;
+  /* background-image: url("https://images3.alphacoders.com/101/101705.jpg");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: cover; */
+}
+
+
+.container {
+  background-color: black;
+  height: 100px;
+}
+
+.img {
+  float:left;
+  padding-left: 5%;
+  height: 20px;
+  width: auto;
+}
+.list {
+  float:right;
+  color: white;
+  padding-top: 30px;
+  padding-right: 15%;
+}
+
+.menu {
+  padding-left: 10px;
+}
+
+.list {
+  float:right;
+  color: white;
+  padding-top: 30px;
+  padding-right: 15%;
+}
+
+.menu {
+  padding-left: 10px;
+}
+
+.width {
+  width: 100px;
+  border-collapse: collapse;
+}
+
+.bImg {
+  position: relative;
+  height: 300px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.fill {
+  width: 100%;
+};
+
+.bCont {
+  margin: 10px;
+}
+
+.inText {
+  position: absolute;
+  bottom: 50px;
+  left: 5%;
+  color: white;
+  font-family: fantasy;
+  font-size: 72px;
+  text-shadow: 1px 1px black;
+}
+
+.cent {
+  text-align: center;
+  margin: 20px 20% 5% 20%;
+}
+
+.spacing {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.query {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.left {
+  text-align: left;
+}
+
+.btn1 {
+  display: block;
+    text-decoration: none;
+    width: 20%;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.bigSpace {
+  margin-top: 20px;
+}
+
+.main {
+  font-family: fantasy;
+}
+
+.leftSP {
+  padding-left: 5%;
+}
+
+form {
+  padding: 10px 0 10px 0;
+}

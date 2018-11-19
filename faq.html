@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="faq.css">
+
+<link href="https://fonts.googleapis.com/css?family=Inconsolata|Lora|Merriweather+Sans|Oxygen|Rosario|Varela+Round" rel="stylesheet">
+<body>
+<header>
+      <div class="wrapper">
+          <div class="logo">
+              <img src="imagefaq/pinda.jpg" alt="">
+          </div>
+              <ul class="nav-area">
+                <li> <a href="homepage.html">Home</a> </li>
+                <li> <a href="history.html">History</a> </li>
+                <li> <a href="species.html">Animals</a> </li>
+                <li> <a href="places.html">Places</a> </li>
+                <li> <a href="#">FAQ</a> </li>
+              </ul>
+              <div class="welcome-text">
+                  <h1>FAQS</h1>
+                    <p>Find about who we are, how we work, and
+                      how you can help</p>
+              </div>
+      <div class="tambahan">
+              <button class="accordion">What does WWF stands for?</button>
+                <div class="panel">
+                  <p>When WWF was first set up in 1961, WWF stood for World Wildlife Fund.
+                In 1986 we changed this to World Wide Fund for Nature to emphasise the broad nature
+                of WWF’s conservation work, which includes not only species, but also habitats and the
+                reversal of environmental degradation.
+                However, since July 2000, WWF has been known simply by its initials.</p>
+                </div>
+              <button class="accordion"><strong> What is this company do? </strong> </button>
+                <div class="panel">
+                  <p>In order to protect nature we need to take on the big issues facing our planet.
+                    We're facing up to challenges such as the urgent threat of climate change. We're
+                    also promoting sustainable use of resources, helping us all change the way we live
+                    and working with business and government to protect our planet for generations to
+                    come. Only then can we develop a world where people and wildlife thrive.</p>
+                </div>
+                <button class="accordion">Where we work?</button>
+                  <div class="panel">
+                    <p> From steamy tropical rainforests to dreamy English chalk streams,
+                     we're working on every continent to halt and reverse dramatic
+                     declines in wildlife numbers and the unsustainable use of our
+                      natural resources. We're working towards a future where both
+                       people and nature thrive.</p>
+                  </div>
+                <button class="accordion">I HAVE SEEN SOME WILDLIFE ITEMS FOR SALE
+                      THAT I THINK ARE ILLEGAL. WHAT SHOULD I DO?  </button>
+                  <div class="panel">
+                    <p> You can fill in our <a href="#"> Report </a>
+                      form to report an suspected illegal wildlife trade. </p>
+                  </div>
+                <button class="accordion">CAN I GET INVOLVED WITH WWF IF I AM UNDER 18?</button>
+                  <div class="panel">
+                    <p>Absolutely, we want you to be involved with WWF no matter your
+                      age and there are lots of ways you can help. We have activities
+                      specifically for younger people such as our Go Wild page, and
+                      others which you can find on our Get Involved section.</p>
+                  </div>
+                <button class="accordion">DOES WWF WORK ON ANIMAL WELFARE ISSUES?</button>
+                  <div class="panel">
+                    <p>WWF works to conserve endangered species, protect endangered
+                      spaces, and address global threats to the planet such as
+                      climate change. Much of our work is for the protection of
+                      endangered animals in the wild – including the tiger, the
+                      rhino and great apes - but we do not have the experience or
+                      expertise to deal with issues relating to animals in captivity.
+                      Whilst animal welfare is outside of our expertise and our legally-binding
+                      constitution, we are constantly striving to build a world in which humans live
+                      in harmony with nature.
+                      You may also wish to contact these other organisations, whose work and expertise
+                      we value greatly, for information and advice on animal welfare issues:</p>
+                  </div>
+        </div>
+
+        <div class= "daftar">
+          <form action="form.html">
+            <label for="fname">Want to join us? Click that register button now!</label>
+            <input type="submit" value="REGISTER">
+          </form>
+        </div>
+
+        <div class= "donate">
+          <form action="/action_page.php">
+            <label for="fname">Want to donate? Click that donate button now!</label>
+            <input type="submit" value="DONATE">
+          </form>
+      </div>
+
+      <div class= "cadangan">
+        <form action="/action_page.php">
+          <label for="fname">Suggestions and Recommendations are welcome!</label>
+          <input type="submit" value="SUGGEST">
+      </form>
+      </div>
+
+    </header>
+
+    <script>
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+          if (panel.style.maxHeight){
+          panel.style.maxHeight = null;
+          } else {
+          panel.style.maxHeight = panel.scrollHeight + "px";
+        }
+        });
+      }
+    </script>
+  </body>
+</html>

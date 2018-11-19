@@ -1,0 +1,157 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper{
+  width: 1170px;
+  margin: auto;
+  position: relative;
+}
+header{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(imageprofile/jambatan.jpg);
+  height: 850px;
+  -webkit-background-size:cover;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+.nav-area{
+  float: right ;
+  list-style: none;
+  margin-top: 30px;
+  margin-right: -100px;
+}
+.nav-area li{
+  display: inline-block;
+}
+.nav-area li a{
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 20px;
+  font-family: cursive;
+  font-size: 14px;
+}
+.nav-area li a:hover{
+  background: #fff;
+  color: #333;
+}
+
+.logo img{
+  width: 200px;
+  height: 130px;
+  float: left;
+  opacity: 0.5;
+  margin-left: -90px;
+  border-radius: 30px;
+  margin-bottom: 45px;
+}
+.logo img:hover{
+  background-color: #3e8e41;
+  opacity: 0.9;
+}
+.bigtitle{
+    clear: left;
+    margin-bottom: 30px;
+}
+.bigtitle h1{
+  font-size: 60px;
+  font-family: 'Lora', serif;
+  font-weight: 400;
+  color: white;
+}
+.bigtitle p{
+  font-family: 'Inconsolata', monospace;
+  color:#fff;
+  opacity: 0.6;
+}
+.profile1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #B3A9A9;
+  opacity: 0.8;
+  float:left;
+  width: 33.3%;
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  border-radius: 20px;
+}
+.profile1 p{
+  font-family: 'Rokkitt', serif;
+  font-size: 20px;
+}
+.profile1 img{
+  width:100%;
+  border-radius: 50%;
+}
+.profile1:hover{
+  opacity: 1.0;
+}
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+button:hover, a:hover {
+  opacity: 0.7;
+}
+.profile2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  float:left;
+  width: 33.3%;
+  max-width: 300px;
+  margin-left: 120px;
+  text-align: center;
+  border-radius: 20px;
+  opacity: 0.8;
+  background-color: #B3A9A9;
+}
+.profile2:hover{
+  opacity: 1;
+}
+.profile2 p{
+  font-family: 'Rokkitt', serif;
+  font-size: 20px;
+}
+.profile2 img{
+  border-radius: 50%;
+  width: 100%;
+}
+.profile3  {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  float:left;
+  width: 33.3%;
+  max-width: 300px;
+  margin-left: 120px;
+  text-align: center;
+  opacity: 0.8;
+  background-color: #B3A9A9;
+  border-radius: 20px;
+}
+.profile3:hover{
+  opacity: 1;
+}
+.profile3 p{
+  font-family: 'Rokkitt', serif;
+  font-size: 20px;
+}
+.profile3 img{
+  border-radius: 50%;
+  width: 100%;
+}
+.title {
+  color: white;
+  font-size: 18px;
+}
+.fa-twitter {
+    color: #0165E8;
+}
+.fa-dribbble{
+  color: #FE14E7;
+}
+.fa-linkedin{
+  color: white;
+}
+.fa-facebook{
+  color:blue;
+}

@@ -1,0 +1,148 @@
+body {
+  margin: 0px;
+  font-family: Arial;
+  /* background-image: url("https://images3.alphacoders.com/101/101705.jpg");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: cover; */
+}
+
+.container {
+  background-color: black;
+  height: 100px;
+}
+
+.bCont {
+  position: absolute;
+  margin: 0;
+}
+
+.width {
+  width: 100px;
+  border-collapse: collapse;
+}
+
+.img {
+  float:left;
+  padding-left: 5%;
+  height: 20px;
+  width: auto;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 90%;
+}
+
+.sticky + .content {
+  padding-top: 0;
+}
+
+.list {
+  float:right;
+  color: white;
+  padding-top: 30px;
+  padding-right: 15%;
+}
+
+.menu {
+  padding-left: 10px;
+}
+
+.btn1 {
+  display: block;
+    text-decoration: none;
+    width: 20%;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.content {
+  padding-top: 10px;
+}
+
+.header {
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+p {
+  padding-right: 2%;
+}
+
+h1 {
+  padding-top: 2%;
+  padding-bottom: 1%;
+  text-align: center;
+}
+
+.show {
+  text-align: center;
+}
+
+.cont {
+  height: 180px;
+  background-color: grey;
+  margin: 2% 5% 2% 5%;
+}
+
+.img1 {
+  float:left;
+  padding-top: 20px;
+  padding-left: 20px;
+  height: 100px;
+  width:auto;
+}
+
+.leftP {
+  position: absolute;
+  float: right;
+  padding-left: 10%;
+  padding-right: 5%;
+}
+
+.bottom {
+  font: bold 16px Georgia;
+  color: blue;
+  padding-left: 4%;
+  padding-top: 120px;
+}
+
+.button {
+  display: inline-block;
+  font-size: 16px;
+  text-decoration: none;
+  width: 15%;
+  padding: 2px 9px 2px 9px;
+  background-color: black;
+  color: grey;
+  text-align: center;
+  border: 1px solid #CCCCCC;
+}
+
+a.button:link, a.button:visited {
+  color: grey;
+}
+
+a.button:hover, a.button:active {
+  color: white;
+}
+
+a.button:active {
+  font-size: 18;
+}
+
+.bImg {
+  max-height: 120px;
+  width: 100%;
+}
+
+.fill {
+  object-fit: fill;
+}

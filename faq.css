@@ -1,0 +1,178 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.wrapper{
+  width: 1170px;
+  margin: auto;
+  position: relative;
+}
+.logo img{
+  width: 200px;
+  height: 130px;
+  float: left;
+  opacity: 0.5;
+  margin-left: -90px;
+  border-radius: 30px;
+}
+.nav-area{
+  float: right ;
+  list-style: none;
+  margin-top: 30px;
+  margin-right: -100px;
+}
+header{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(imagefaq/burd.jpg);
+  height: 1350px;
+  margin-bottom: 0;
+  -webkit-background-size:cover;
+  background-size: cover;
+  background-position: center center
+  position: relative;
+}
+.nav-area li{
+    display: inline-block;
+}
+.nav-area li a{
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 20px;
+  font-family: cursive;
+  font-size: 14px;
+}
+.nav-area li a:hover{
+  background: #fff;
+  color: #333;
+}
+.logo img:hover{
+  background-color: #3e8e41;
+  opacity: 0.9;
+}
+.tambahan{
+  position: absolute;
+  margin: 25% 10%;
+  width: 1000px;
+}
+.tambahan p{
+  text-align: justify;
+  font-family: 'Rosario', sans-serif;
+  font-weight: bold;
+  color:black;
+}
+.accordion {
+    background-color: #BAF41A;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid white;
+    text-align: center;
+    outline: none;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.4s;
+    opacity: 0.7;
+    text-transform: uppercase;
+    font-family: 'Varela Round', sans-serif;
+
+}
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    width: 96%;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    border-radius: 20px;
+}
+.panel p{
+  color: black;
+  font-weight: 400;
+}
+.welcome-text{
+  position: absolute;
+  width: 500px;
+  height: 200px;
+  margin-top: 160px;
+  margin-left: 30%;
+  text-align: center;
+}
+.welcome-text h1{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 60px;
+  font-family: 'Lora', serif;
+  color: #fff;
+}
+.welcome-text p{
+  font-family: 'Inconsolata', monospace;
+  color:#fff;
+  text-align: center;
+  opacity: 0.6;
+}
+.daftar{
+  margin-top: 1150px;
+  margin-left: -175px;
+  position: absolute;
+  background-color: #7F8C7D;
+  width: 1519px;
+  height: 40px;
+  opacity: 0.9;
+}
+.daftar input{
+  margin-left: 295px;
+}
+label{
+  color: white;
+  font-family: 'Merriweather Sans', sans-serif;
+  margin-left: 100px;
+  font-size: 30px;
+}
+input{
+    margin-left:  20%;
+    background-color: #1AFE01;
+    height: 40px;
+    width: 150px;
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+    opacity: 0.9;
+    padding: 3px;
+    position: absolute;
+    opacity: 0.8;
+    font-family: 'Merriweather Sans', sans-serif;s
+    font-size: 10px;
+}
+.donate{
+  margin-top: 1200px;
+  margin-left: -175px;
+  position: absolute;
+  background-color: #7F8C7D;
+  width: 1519px;
+  height: 40px;
+  opacity: 0.9;
+}
+.donate input{
+  background-color: #FE3728;
+}
+.cadangan{
+  margin-top: 1250px;
+  margin-left: -175px;
+  position: absolute;
+  background-color: #7F8C7D;
+  width: 1519px;
+  height: 40px;
+  opacity: 0.9;
+}
+.cadangan input{
+  background-color: #020BFE;
+  margin-left: 275px;
+}
+input:hover {
+  background: #fff;
+  color: #333;
+}
