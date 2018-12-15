@@ -9,7 +9,7 @@
   position: relative;
 }
 header{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(reptile.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(imagehomepage/reptile.jpg);
   height: 850px;
   -webkit-background-size:cover;
   background-size: cover;
