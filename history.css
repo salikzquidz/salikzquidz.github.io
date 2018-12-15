@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper{
+  width: 1170px;
+  margin: auto;
+  position: relative;
+}
+header{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(reptile.jpg);
+  height: 850px;
+  -webkit-background-size:cover;
+  background-size: cover;
+  background-position: center center
+  position: relative;
+}
+.nav-area{
+  float: right ;
+  list-style: none;
+  margin-top: 30px;
+  margin-right: -100px;
+}
+.nav-area li{
+  display: inline-block;
+}
+.nav-area li a{
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 20px;
+  font-family: cursive;
+  font-size: 14px;
+}
+.nav-area li a:hover{
+  background: #fff;
+  color: #333;
+}
+
+.logo img{
+  width: 200px;
+  height: 130px;
+  float: left;
+  opacity: 0.5;
+  margin-left: -90px;
+  border-radius: 30px;
+}
+.logo img:hover{
+  background-color: #3e8e41;
+  opacity: 0.9;
+}
+.welcome-text{
+  position: absolute;
+  width: 1000px;
+  height: 300px;
+  margin: 10% 10%;
+  text-align: left;
+}
+.welcome-text h1{
+
+  text-align:left;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 50px;
+  font-family: 'Lora', serif;
+
+}
+.welcome-text p{
+  font-family: 'Inconsolata', monospace;
+  color:#fff;
+  text-align: justify;
+  opacity: 0.6;
+  margin-top: 20px;
+  font-size: 18px;
+}
+.welcome-text a{
+  border: 1px solid #fff;
+  padding: 10px 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-top: 20px;
+  display: inline-block;
+  color: #fff;
+}
+.btn1 {
+  display: block;
+    text-decoration: none;
+    width: 20%;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
