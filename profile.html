@@ -12,7 +12,7 @@
     <header>
       <div class="wrapper">
         <div class="logo">
-          <img src="imageprofile/pinda.jpg" alt="">
+          <img src="imagehomepage/pinda.jpg" alt="">
         </div>
 
           <div class="nav-area">
@@ -54,7 +54,7 @@
 
           </div>
 
-          <div class="profile3">
+          <div id="panel3" class="profile3">
             <img src="imageprofile/akhyar.jpeg" alt="Akhyar" >
               <p class="title">Akhyar al-Khairi</p>
                 <p>Oxford University</p>
@@ -69,5 +69,15 @@
         </<div>
 
       </header>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script type="text/javascript">
+        $(function(){
+
+          $(".profile1").slideUp(250).slideDown(500);
+          $(".profile2").slideUp(250).slideDown(500);
+          $(".profile3").slideUp(250).slideDown(500);
+
+        })
+      </script>
   </body>
 </html>
